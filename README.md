@@ -1,4 +1,3 @@
-````markdown
 # Number Classifier API
 
 A REST API that classifies numbers by their mathematical properties and provides interesting facts. Built with Node.js, Express, and deployed on Render.
@@ -31,7 +30,6 @@ A REST API that classifies numbers by their mathematical properties and provides
 git clone https://github.com/shado-w-alker/number-classifier-api
 cd number-classifier-api
 ```
-````
 
 2. Install dependencies:
 
@@ -45,18 +43,18 @@ npm install
 npm start
 ```
 
-The API will be available at `http://localhost:3000`
+The API will be available at `https://number-classifier-api-56y5.onrender.com`
 
 ## Usage
 
 ### Base URL
 
-`https://number-classifier-api.onrender.com`
+`https://number-classifier-api-56y5.onrender.com`
 
 ### Example Request
 
 ```bash
-curl "https://number-classifier-api.onrender.com/api/classify-number?number=371"
+curl "https://number-classifier-api-56y5.onrender.com/api/classify-number?number=371"
 ```
 
 ### Sample Response (200 OK)
@@ -99,11 +97,17 @@ npm start
 
 5. Deploy!
 
-## API Reference
+---
 
-### Endpoint
+## 📝 **Postman API Documentation**
 
-`GET /api/classify-number`
+The full API documentation is available at:
+
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://documenter.getpostman.com/view/21773885/2sAYX5K2Jf)
+
+Explore and test the API directly in Postman.
+
+---
 
 ### Parameters
 
